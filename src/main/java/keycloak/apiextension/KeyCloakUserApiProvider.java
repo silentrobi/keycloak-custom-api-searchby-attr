@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class KeyCloakUserApiProvider implements RealmResourceProvider {
     private final KeycloakSession session;
-    private final String defaultAttr = "marchent_id";
+    private final String defaultAttr = "merchent_id";
     private final UserMapper userMapper;
     
     public KeyCloakUserApiProvider(KeycloakSession session) {
