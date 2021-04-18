@@ -8,7 +8,7 @@ docker cp <jar_file_path> keycloak:/opt/jboss/keycloak/standalone/deployments/
 ## Demo
 **Request:**
 ```sh
-curl --location --request GET 'http://localhost:8090/auth/realms/demo/token-userapi-rest/users/search-by-attr?attr=marchent_id&value=1'
+curl --location --request GET 'http://localhost:8090/auth/realms/demo/userapi-rest/users/search-by-attr?attr=merchant_id&value=1'
 ```
 **Response:**
 ```json
