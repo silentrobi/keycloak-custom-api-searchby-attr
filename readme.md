@@ -36,3 +36,4 @@ curl --location --request GET 'http://localhost:8090/auth/realms/demo/userapi-re
     }
 ]
 ```
+Give a **start** :star: if you like the project.
