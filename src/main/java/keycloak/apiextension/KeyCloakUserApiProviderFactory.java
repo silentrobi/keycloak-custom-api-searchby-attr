@@ -1,6 +1,6 @@
 package keycloak.apiextension;
 
-import keycloak.apiextension.TokenKeyCloakUserApiProvider;
+import keycloak.apiextension.KeyCloakUserApiProvider;
 import org.keycloak.Config.Scope;
 import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.KeycloakSessionFactory;
